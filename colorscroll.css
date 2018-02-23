@@ -1,0 +1,29 @@
+* {box-sizing: border-box;}
+body {min-height: 1400px;} /* just to definitely have somewhere to scroll */
+
+#box {
+	background: rgba(235, 0, 26, 0.5);
+	width: 100%;
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	color: #f2f2f2;
+	text-align: center;
+	font-family: Verdana;
+	padding: 1em;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#bg-text {
+	font-family: Verdana;
+	margin: 180px auto 5% auto;
+	width: 90%;
+	line-height: 1.8;
+	background: rgba(200,200,200,0.6);
+	padding: 1em 2em;}
+
+@media only screen and (min-width: 768px) {
+	#bg-text {margin-top: 120px; max-width: 55em;}
+}
